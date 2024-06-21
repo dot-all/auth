@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function SignUp() {
 
   const [formData, setFormData] = useState<Record<string, string>>({});
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => { // Añadir objeto genérico
     setFormData({
@@ -33,6 +34,7 @@ export default function SignUp() {
       if (data.success === false) {
         throw error;
       }
+      navigate("/sign-in");
 
     } catch (error) {
       setLoading(false);
