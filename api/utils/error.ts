@@ -2,7 +2,7 @@ export class CustomError extends Error {
   statusCode: number;
 
   constructor(statusCode: number, message: string) {
-    super(message); // Llama al constructor de la clase base `Error`
+    super(message);
     this.statusCode = statusCode;
 
     // Establece el prototipo explícitamente para asegurar que instanceof funcione correctamente
