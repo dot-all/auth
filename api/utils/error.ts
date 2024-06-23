@@ -5,7 +5,6 @@ export class CustomError extends Error {
     super(message);
     this.statusCode = statusCode;
 
-    // Establece el prototipo explícitamente para asegurar que instanceof funcione correctamente
     Object.setPrototypeOf(this, CustomError.prototype);
   }
 }
