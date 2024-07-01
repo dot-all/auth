@@ -1,6 +1,6 @@
 # auth
 
-Welcome to the Auth Application! This project provides authentication functionalities, including sign-in and sign-up.
+Welcome to the Auth Application! This project provides authentication functionalities, including sign-in and sign-up. 
 
 ## Features
 
