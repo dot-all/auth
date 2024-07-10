@@ -9,7 +9,7 @@ Welcome to the Auth Application! This project provides authentication functional
 - **Update**: Allows users to update their information.
 ## Technology Stack
 
-- **Frontend**: React
+- **Frontend**: React, TailwindCSS
 - **State Management**: Redux
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
