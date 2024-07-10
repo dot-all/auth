@@ -6,7 +6,7 @@ Welcome to the Auth Application! This project provides authentication functional
 
 - **Sign-In**: Allows users to log in with their credentials.
 - **Sign-Up**: Allows new users to create an account.
-- **Update**: Allows users to update their information  
+- **Update**: Allows users to update their information.
 ## Technology Stack
 
 - **Frontend**: React
